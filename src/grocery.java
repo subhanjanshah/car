@@ -6,7 +6,7 @@ public class grocery {
         String[] grocery = new String[100];
     int count = 0;
     while (count < grocery.length) {
-System.out.println("Add item (x = exit)");
+System.out.println("Add item (x = exit)"); // change made in this program commits
 String item  = in.nextLine(); 
          if (item.equalsIgnoreCase("x")) {
          break;
